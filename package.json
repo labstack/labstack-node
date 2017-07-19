@@ -1,0 +1,22 @@
+{
+  "name": "labstack",
+  "version": "0.0.1",
+  "description": "LabStack Node.js client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labstack/labstack-node.git"
+  },
+  "keywords": [
+    "labstack"
+  ],
+  "author": "Vishal Rana <vr@labstack.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/labstack/labstack-node/issues"
+  },
+  "homepage": "https://github.com/labstack/labstack-node#readme"
+}
