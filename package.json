@@ -1,6 +1,6 @@
 {
   "name": "labstack",
-  "version": "0.0.1",
+  "version": "0.3.0",
   "description": "LabStack Node.js client",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/labstack/labstack-node/issues"
   },
-  "homepage": "https://github.com/labstack/labstack-node#readme"
+  "homepage": "https://github.com/labstack/labstack-node#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bluebird": "^3.5.0",
+    "enumify": "^1.0.4",
+    "promise.prototype.finally": "^2.0.1",
+    "sprintf-js": "^1.1.1"
+  }
 }
