@@ -1,6 +1,6 @@
 {
   "name": "labstack",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "LabStack Node.js client",
   "main": "index.js",
   "scripts": {
