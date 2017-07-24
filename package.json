@@ -1,6 +1,6 @@
 {
   "name": "labstack",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "LabStack Node.js client",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,25 @@
     "url": "git+https://github.com/labstack/labstack-node.git"
   },
   "keywords": [
-    "labstack"
+    "labstack",
+    "iot",
+    "cloud",
+    "datastore",
+    "email",
+    "logging",
+    "mqtt",
+    "analytics",
+    "http",
+    "mobile",
+    "android",
+    "ios",
+    "backend",
+    "api",
+    "database",
+    "email as a service",
+    "database as a service",
+    "logging as a service",
+    "mqtt as a service"
   ],
   "author": "Vishal Rana <vr@labstack.com>",
   "license": "MIT",
@@ -25,5 +43,8 @@
     "enumify": "^1.0.4",
     "promise.prototype.finally": "^2.0.1",
     "sprintf-js": "^1.1.1"
+  },
+  "engines": {
+    "node": ">= 6"
   }
 }
