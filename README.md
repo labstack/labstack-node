@@ -18,9 +18,14 @@ const {Client, StoreError} = require('labstack')
 
 const client = new Client('<API_KEY>')
 const store = client.store()
-store.insert('foo', 'bar').then(entry => {
-}).catch(StoreError, error => {
-}
+store.insert('users', {
+  name: 'Jack',
+  location: 'Disney'
+}).then(doc => {
+  console.log(doc)
+}).catch(StoreError, err => {
+  console.error(err)
+})
 ```
 
 From terminal run your app:
@@ -28,7 +33,5 @@ From terminal run your app:
 ```sh
 node app.js
 ```
-
-This will insert an entry `foo` with value `bar` into the datastore.
 
 ## [Docs](https://labstack.com/docs)
