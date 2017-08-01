@@ -14,7 +14,7 @@ Yarn `yarn add labstack`
 Create a file `app.js` with the following content:
 
 ```js
-const {Client, StoreError} = require('labstack')
+const {Client} = require('labstack')
 
 const client = new Client('<API_KEY>')
 const store = client.store()
@@ -23,7 +23,7 @@ store.insert('users', {
   location: 'Disney'
 }).then(doc => {
   console.log(doc)
-}).catch(StoreError, err => {
+}).catch(err => {
   console.error(err)
 })
 ```
