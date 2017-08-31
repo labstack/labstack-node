@@ -34,4 +34,4 @@ From terminal run your app:
 node app.js
 ```
 
-## [Docs](https://labstack.com/docs)
+## [Docs](https://labstack.com/docs) | [Forum](https://forum.labstack.com)
