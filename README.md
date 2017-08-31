@@ -9,14 +9,14 @@ Yarn `yarn add labstack`
 
 ## Quick Start
 
-[Sign up](https://labstack.com/signup) to an get API key
+[Sign up](https://labstack.com/signup) to get an API key
 
 Create a file `app.js` with the following content:
 
 ```js
 const {Client} = require('labstack')
 
-const client = new Client('<API_KEY>')
+const client = new Client('<ACCOUNT_ID>', '<API_KEY>')
 const store = client.store()
 store.insert('users', {
   name: 'Jack',
