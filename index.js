@@ -1,13 +1,8 @@
 const {Client} = require('./lib/client')
-const {EmailMessage, EmailError} = require('./lib/email')
-const {Level, LogError} = require('./lib/log')
-const {StoreError} = require('./lib/store')
+const {JetMessage, JetError} = require('./lib/jet')
 
 module.exports = {
   Client,
-  EmailMessage,
-  EmailError,
-  Level,
-  LogError,
-  StoreError
+  JetMessage,
+  JetError,
 }

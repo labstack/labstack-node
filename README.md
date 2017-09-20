@@ -14,17 +14,15 @@ Yarn `yarn add labstack`
 Create a file `app.js` with the following content:
 
 ```js
-const {Client} = require('labstack')
+const {Client, JetMessage } = require('labstack')
 
 const client = new Client('<ACCOUNT_ID>', '<API_KEY>')
-const store = client.store()
-store.insert('users', {
-  name: 'Jack',
-  location: 'Disney'
-}).then(doc => {
-  console.log(doc)
+const jet = client.jet()
+const message = new JetMessage('jack@labstack.com', 'LabStack', 'Hello')
+message.body = 'hello'
+message.addInline('/tmp/walle.png')
+jet.send(message).then(msg => {
 }).catch(err => {
-  console.error(err)
 })
 ```
 

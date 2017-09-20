@@ -26,10 +26,6 @@ define-properties@^1.1.2:
     foreach "^2.0.5"
     object-keys "^1.0.8"
 
-enumify@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/enumify/-/enumify-1.0.4.tgz#2bb6263071dd4551e54c55755707fad24a40cd7e"
-
 es-abstract@^1.6.1:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.7.0.tgz#dfade774e01bfcd97f96180298c449c8623fb94c"
@@ -104,7 +100,3 @@ promise.prototype.finally@^2.0.1:
     define-properties "^1.1.2"
     es-abstract "^1.6.1"
     function-bind "^1.1.0"
-
-sprintf-js@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.1.1.tgz#36be78320afe5801f6cea3ee78b6e5aab940ea0c"
