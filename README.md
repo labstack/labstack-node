@@ -19,11 +19,9 @@ const {Client, ApiError} = require('labstack')
 const client = new Client('<API_KEY>')
 
 client.optimizeJpeg({file: '<PATH>'})
-.then(output => {
-   console.log(output)
+.then(response => {
 })
 .catch(error => {
-   console.error(error)
 })
 ```
 
