@@ -16,7 +16,7 @@ Create a file `app.js` with the following content:
 ```js
 const {Client, ApiError} = require('labstack')
 
-const client = new Client('<ACCOUNT_ID>', '<API_KEY>')
+const client = new Client('<API_KEY>')
 
 client.optimizeJpeg({file: '<PATH>'})
 .then(output => {
