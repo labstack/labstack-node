@@ -14,16 +14,17 @@ Yarn `yarn add labstack`
 Create a file `app.js` with the following content:
 
 ```js
-const {Client, JetMessage } = require('labstack')
+const {Client, ApiError} = require('labstack')
 
 const client = new Client('<ACCOUNT_ID>', '<API_KEY>')
-const jet = client.jet()
-const message = new JetMessage('jack@labstack.com', 'LabStack', 'Hello')
-message.body = 'hello'
-message.addInline('/tmp/walle.png')
-jet.send(message).then(msg => {
-}).catch(err => {
-})
+
+client.optimizeJpeg({file: '<PATH>'})
+ .then(output => {
+   console.log(output)
+ })
+ .catch(error => {
+   console.error(error)
+ })
 ```
 
 From terminal run your app:
