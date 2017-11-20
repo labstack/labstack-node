@@ -18,10 +18,14 @@ const {Client, ApiError} = require('labstack')
 
 const client = new Client('<API_KEY>')
 
-client.optimizeJpeg({file: '<PATH>'})
-.then(response => {
+client.barcodeGenerate({
+  format: 'qr_code',
+  content: 'https://labstack.com'
+}).then(response => {
+  client.download(response.id, '/tmp/' + response.name)
 })
 .catch(error => {
+  console.error(error)
 })
 ```
 
@@ -31,4 +35,4 @@ From terminal run your app:
 node app.js
 ```
 
-## [Documentation](https://labstack.com/docs) | [Forum](https://forum.labstack.com)
+## [API](https://labstack.com/api) | [Forum](https://forum.labstack.com)
