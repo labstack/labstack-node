@@ -14,7 +14,7 @@ Yarn `yarn add labstack`
 Create a file `app.js` with the following content:
 
 ```js
-const {Client, ApiError} = require('labstack')
+const {Client, APIError} = require('labstack')
 
 const client = new Client('<API_KEY>')
 
