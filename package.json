@@ -1,7 +1,7 @@
 {
   "name": "labstack",
-  "version": "0.20.0",
-  "description": "Official Node.js client library for the LabStack API",
+  "version": "0.21.0",
+  "description": "Official Node.js client library for the LabStack platform",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

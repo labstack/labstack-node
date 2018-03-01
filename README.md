@@ -18,11 +18,10 @@ const {Client, APIError} = require('labstack')
 
 const client = new Client('<ACCOUNT_ID>', '<API_KEY>')
 
-client.barcodeGenerate({
-  format: 'qr_code',
-  content: 'https://labstack.com'
+client.geocodeAddress({
+  location: 'eiffel tower'
 }).then(response => {
-  client.download(response.id, '/tmp/' + response.name)
+  console.info(response)
 })
 .catch(error => {
   console.error(error)
@@ -35,4 +34,4 @@ From terminal run your app:
 node app.js
 ```
 
-## [API](https://labstack.com/api) | [Forum](https://forum.labstack.com)
+## [Docs](https://labstack.com/docs) | [Forum](https://forum.labstack.com)
