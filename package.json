@@ -2,7 +2,7 @@
   "name": "labstack",
   "version": "0.21.0",
   "description": "Official Node.js client library for the LabStack platform",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +23,10 @@
   },
   "engines": {
     "node": ">= 6"
+  },
+  "devDependencies": {
+    "express": "^4.16.2",
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0"
   }
 }
