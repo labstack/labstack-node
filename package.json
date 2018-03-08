@@ -19,7 +19,8 @@
   "homepage": "https://github.com/labstack/labstack-node#readme",
   "dependencies": {
     "form-data": "^2.3.1",
-    "got": "^7.1.0"
+    "got": "^7.1.0",
+    "pidusage": "^1.2.0"
   },
   "engines": {
     "node": ">= 6"
