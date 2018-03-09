@@ -9,9 +9,13 @@ const {cube} = labstack.koa
 app.get('/', ctx => {
   ctx.body = 'Hello, World!'
 })
+app.get('/error', ctx => {
+  throw new Error('Error!')
+})
 
 koa.use(cube(process.env.LABSTACK_KEY, {
     batchSize: 1
 }))
 koa.use(app.routes())
+
 koa.listen(3002)
