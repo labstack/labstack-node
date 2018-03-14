@@ -17,4 +17,4 @@ app.use((err, req, res, next) => {
     next(err)
 })
 
-app.listen(3001, () => console.log('Example app listening on port 3001!'))
+app.listen(3001)
