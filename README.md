@@ -1,6 +1,6 @@
 <a href="https://labstack.com"><img height="80" src="https://cdn.labstack.com/images/labstack-logo.svg"></a>
 
-## Node.js Client
+# Node.js Client
 
 ## Installation
 
