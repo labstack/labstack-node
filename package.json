@@ -1,6 +1,6 @@
 {
   "name": "labstack",
-  "version": "0.21.5",
+  "version": "0.21.6",
   "description": "Official Node.js client library for the LabStack platform",
   "main": "lib/index.js",
   "scripts": {
