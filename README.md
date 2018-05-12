@@ -19,9 +19,8 @@ const {Client, APIError} = require('labstack')
 const client = new Client('<API_KEY>')
 const geocode = client.geocode()
 
-geocode.address({
-  location: 'eiffel tower'
-}).then(response => {
+geocode.address('eiffel tower')
+.then(response => {
   console.info(response)
 })
 .catch(error => {
