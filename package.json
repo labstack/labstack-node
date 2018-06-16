@@ -1,6 +1,6 @@
 {
   "name": "labstack",
-  "version": "0.32.1",
+  "version": "0.50.0",
   "description": "Official Node.js client library for the LabStack platform",
   "main": "index.js",
   "scripts": {
@@ -18,15 +18,10 @@
   },
   "homepage": "https://github.com/labstack/labstack-node#readme",
   "dependencies": {
-    "express": "^4.16.3",
-    "form-data": "^2.3.1",
-    "got": "^7.1.0",
-    "koa": "^2.5.1",
-    "microtime": "^2.1.8",
-    "mqtt": "^2.18.0",
-    "pidusage": "^2.0.6"
+    "got": "^8.3.1",
+    "mqtt": "^2.18.1"
   },
   "engines": {
-    "node": ">= 6"
+    "node": ">= 8"
   }
 }
