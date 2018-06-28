@@ -1,3 +1,3 @@
 module.exports = {
-  Hub: require('./lib/hub')
+  Axis: require('./lib/axis')
 }
