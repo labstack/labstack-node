@@ -1,3 +1,3 @@
 module.exports = {
-  Axis: require('./lib/axis')
-}
+  Client: require("./lib/client").Client
+};
