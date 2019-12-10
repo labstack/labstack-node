@@ -20,3 +20,10 @@ test("list", async t => {
     t.not(response.currencies.length, "0");
   });
 });
+
+test("rates", async t => {
+  await t.notThrowsAsync(async () => {
+    const response = await cs.rates();
+    t.not(response.rates.length, "0");
+  });
+});
